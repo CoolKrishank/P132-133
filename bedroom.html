@@ -1,0 +1,27 @@
+<html>
+<head>
+
+	<title>Bedroom Detection</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="bedroom.css">
+</head>
+<body background="bg.jpg">
+  <button class="btn" onclick="home()"><i class="bi bi-house-fill"></i></button>
+    <br><br><br>
+    <center>
+      <h1 class="btn btn-info heading">Bedroom</h1>
+      <br><br>
+      <button class="btn btn-danger" id="status"></button>
+      <br>
+      <h3 class="btn btn-success">There are 8 objects in the image and cocossd has only detected 1</h3>
+    </center>
+    <script src="bedroom.js"></script>
+</body>
